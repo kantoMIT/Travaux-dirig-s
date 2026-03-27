@@ -1,0 +1,47 @@
+/* VARIABLES:
+a: réel 
+b: réel
+c: réel
+T: réel 
+DÉBUT: 
+AFFICHAGE : "entrez la valeur de a"
+LIRE a
+AFFICHAGE :"entrez la valeur de b"
+LIRE b
+AFFICHAGE :"entrez la valeur de c"
+LIRE c
+T<-A
+A<-B
+B<-T
+AFFICHER A
+AFFICHER B
+T<-A
+A<-B
+B<-C
+C<-T
+AFFICHER A
+AFFICHER B
+AFFICHER C
+FIN
+*/
+#include <stdio.h>
+  int main ()
+  {
+     float a , b , c, T;
+     printf ("entrez la valeur de a");
+     scanf ("%f" , &a);
+     printf ("entrez la valeur de b");
+     scanf ("%f" , &b);
+     printf ("entrez la valeur de c");
+     scanf ("%f" , &c);
+     T=A;
+     A=B;
+     B=T;
+     printf A;
+     printf B;
+     T=A;
+     A=B;
+     B=C;
+     C=T;
+return (0);
+  }
